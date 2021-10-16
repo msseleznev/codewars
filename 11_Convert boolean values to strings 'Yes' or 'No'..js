@@ -9,4 +9,3 @@ function boolToWord( bool ){
 }
 // сокращенная запись
 boolToWord = bool => bool == true ? "Yes" : "No";
-

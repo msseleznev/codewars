@@ -18,3 +18,10 @@ function multiTable(number) {
     }
 }
 console.log(multiTable(2));
+
+function repeatStr (n, s) {
+    for (var i = 0; i < n; i++){
+        return s * 1;
+    }
+
+}

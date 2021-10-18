@@ -11,17 +11,8 @@ for(var i = 1; i < 11; i += 1) {
     s += i + "\n";
 }
 console.log(s);*/
-
 function multiTable(number) {
     for (var i = 1; i < 11; i++) {
-        return  i+" * "+number+" = "+i * number;
+        console.log(i+" * "+number+" = "+i * number );
     }
-}
-console.log(multiTable(2));
-
-function repeatStr (n, s) {
-    for (var i = 0; i < n; i++){
-        return s * 1;
-    }
-
 }

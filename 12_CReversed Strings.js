@@ -4,3 +4,13 @@
 function solution(str) {
     return str.split("").reverse().join("");
 }
+
+    function stringToArray(string){
+
+        return string.split("");
+
+    }
+
+    function reverseList(list) {
+        return  list.reverse()
+    }
